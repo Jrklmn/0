@@ -1,0 +1,12 @@
+prompt="Enter a number"
+second=int(input(prompt))
+print(second)
+a=second/3600
+float(a)
+print(a)
+b=a*60
+float(b)
+print(b)
+c=b*60
+print(c)
+print(second,"seconds is",a,"hours,",b,"minutes,",c,"seconds")
